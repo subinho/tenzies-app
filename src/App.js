@@ -1,6 +1,6 @@
 import './App.css';
 import React from "react"
-import Die from "./Die"
+import Die from "./components/Die"
 import {nanoid} from "nanoid"
 import Confetti from "react-confetti"
 
@@ -18,7 +18,7 @@ export default function App() {
     //         console.log("You won!")
     //     }
     // }, [dice])
-    
+
     React.useEffect(() => {
         let isHeld = dice.every(die => die.isHeld)
         let isEqual = dice.every(die => die.value === dice[0].value)
