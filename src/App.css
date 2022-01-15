@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  cursor: default;
 }
 
 body {
@@ -68,6 +69,7 @@ main {
 
 .die-num {
   font-size: 2rem;
+  cursor: pointer;
 }
 
 .roll-dice {
