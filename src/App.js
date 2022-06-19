@@ -77,7 +77,7 @@ export default function App() {
     ))
     
     return (
-        <div>
+        <div className="container">
             {tenzies && <Confetti />}
             <main>
                 {/* {tenzies && <Confetti />} */}
